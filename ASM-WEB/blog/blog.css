@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8ece9;
+}
+#header{
+    width: 100%;
+    padding: 0px 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8ece9;
+    
+}
+#header .logo img {
+    width: 100px; 
+}
+
+#actions .item img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+}
+#menu{
+    list-style: none;
+    display: flex;
+}
+#menu .item{
+    margin: 0px 25px;
+
+}
+#menu .item a{
+    color: #626a71;
+    text-decoration: none;    
+}
+#menu .item a:hover{
+    color:orange;
+}
+#actions{
+    display: flex;
+}
+#actions .item a{
+    text-decoration: none;
+    color: #626a71;
+}
+#actions .item a:hover{
+    color: orange;
+}
+#actions .item{
+    margin-left: 22px;
+
+}
+#banner{
+    width: 100%;
+    background-image: url("pictures/banner1.jpg");
+    background-size: cover; 
+    background-position: center; 
+    height: 120vh; 
+    display: flex;
+    padding: 0px 133px;
+    position: relative;
+}
+#banner .box-left, #banner .box-right{
+    width: 50%;
+}
+#banner .box-left h2{
+    font-size: 48px;
+    margin-top: 75px;
+    color: white;
+}
+#banner .box-left p{
+    color: #D0D0D0;
+}
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background-color: black;
+    border:none ;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#banner .box-left button:hover{
+    background-color: orange;
+}
+#blog {
+    padding: 80px 133px;
+    background-color: #f8ece9;
+}
+
+#blog h2 {
+    font-size: 32px;
+    color: #626a67;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#blog .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-post {
+    width: 30%; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-post:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f8ece9;
+}
+
+.blog-post h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 10px 10px 10px;
+    line-height: 1.4;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 10px 20px 10px;
+    line-height: 1.5;
+}
+
+.blog-post .read-more {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.blog-post .read-more:hover {
+    background-color: orange;
+    color: white;
+}
+#blog-content {
+    padding: 80px 133px;
+    background-color: #f8ece9;
+    color: #626a71;
+    line-height: 1.8;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-header h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog-header .blog-intro {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.blog-section {
+    margin-bottom: 40px;
+}
+
+.blog-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog-section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.blog-conclusion {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-conclusion h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.blog-conclusion p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your shopping cart">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <a href="" class="logo">
+                <img src="/pictures/Loyy.png" alt="">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <a href="/index.html">Home</a>
+                </div>
+                <div class="item has-submenu">
+                    <a href="/products/product.html">Products</a>
+                </div>
+                <div class="item">
+                    <a href="/index.html#blog">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="/index.html#contact">Contact</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <i class="fa-solid fa-user-ninja"></i>
+                    <a href="Log In/login.html"> Log In</a>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <a href="">Cart</a>
+                </div>
+            </div>
+        </div>
+        <div id="cart-items">
+            <!-- Cart items will be inserted here by JavaScript -->
+        </div>
+        <div id="total">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+        </div>
+        <button id="checkout">Checkout</button>
+        </div>
+        <script src="cart.js"></script>
+    </body>
+</html>

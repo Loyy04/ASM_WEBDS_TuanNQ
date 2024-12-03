@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <a href="" class="logo">
+                <img src="/pictures/Loyy.png" alt="">
+            </a>
+            <div id="menu">
+                <div class="item">  
+                    <a href="/index.html">Home</a>
+                </div>
+                <div class="item has-submenu">
+                    <a href="/products/product.html">Products</a>
+                </div>
+                <div class="item">
+                    <a href="blog.html">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="/index.html#contact">Contact</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <i class="fa-solid fa-user-ninja"></i>
+                    <a href="/Login/login.html"> Log In</a>                   
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <a href="/Cart/cart.html">Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wp-products">
+        <h2>MY PRODUCTS</h2>
+        <ul id="list-products">
+            <li class="item">
+                <img src="/pictures/Product-polo.webp" alt="">
+                <div class="name">Polo</div>
+                <div class="desc">Gucci GG Cotton Stretch Polo Shirt Navy Blue</div>
+                <div class="price">$812.20</div>
+                <button class="add-to-cart small" 
+                data-name="Polo" 
+                data-price="$812.20" 
+                data-desc="Gucci GG Cotton Stretch Polo Shirt Navy Blue"s
+                data-img="/pictures/Product-polo.webp">Add to Cart</button>
+            </li>
+
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product.webp" alt="">
+                </div>
+                <div class="name">T-Shirt</div>
+                <div class="desc">Balenciaga X Under Armour Washed Oversized T-Shirt</div>
+                <div class="price">$523.79</div>
+                <button class="add-to-cart small" 
+                    data-name="T-Shirt"
+                    data-price="$523.79"
+                    data-desc="Balenciaga X Under Armour Washed Oversized T-Shirt"
+                    data-img="/pictures/product.webp">Add to Cart</button>
+            </li>
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product2.webp" alt="">
+                </div>
+                <div class="name">T-Shirt</div>
+                <div class="desc">Balenciaga Tape Type Logo Oversized T-Shirt</div>
+                <div class="price">$842.83</div>
+                <button class="add-to-cart small" 
+                    data-name="T-Shirt"
+                    data-price="$842.83"
+                    data-desc="Balenciaga Tape Type Logo Oversized T-Shirt"
+                    data-img="/pictures/product2.webp">Add to Cart</button>
+            </li>
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product3.webp" alt="">
+                </div>
+                <div class="name">Windbreaker</div>
+                <div class="desc">Balenciaga Under Armour Windbreaker</div>
+                <div class="price">$1,462</div>
+                <button class="add-to-cart small" 
+                    data-name="Windbreaker"
+                    data-price="$1,462"
+                    data-desc="Balenciaga Under Armour Windbreaker"
+                    data-img="/pictures/product3.webp">Add to Cart</button>
+            </li>        
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product4.webp" alt="">
+                </div>
+                <div class="name">Shirt Mini Dress</div>
+                <div class="desc">Balenciaga Faded Shirt Mini Dress</div>
+                <div class="price">$1,428</div>
+                <button class="add-to-cart small" 
+                    data-name="Shirt Mini Dress"
+                    data-price="$1,428"
+                    data-desc="Balenciaga Faded Shirt Mini Dress"
+                    data-img="/pictures/product4.webp">Add to Cart</button>
+            </li>   
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product5.webp" alt="">
+                </div>
+                <div class="name">Shirt Dress</div>
+                <div class="desc">Balenciaga Suspended Shirt Dress</div>
+                <div class="price">$887.36</div>
+                <button class="add-to-cart small" 
+                    data-name="Shirt Dress"
+                    data-price="$887.36"
+                    data-desc="Balenciaga Suspended Shirt Dress"
+                    data-img="/pictures/product5.webp">Add to Cart</button>
+            </li>   
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product6.webp" alt="">
+                </div>
+                <div class="name">Jacket</div>
+                <div class="desc">Gucci GG Logo Denim Jacket</div>
+                <div class="price">$1,663.80</div>
+                <button class="add-to-cart small" 
+                    data-name="Jacket"
+                    data-price="$1,663.80"
+                    data-desc="Gucci GG Logo Denim Jacket"
+                    data-img="/pictures/product6.webp">Add to Cart</button>
+            </li>   
+            <li class="item">
+                <div class="image">
+                    <img src="/pictures/product7.webp" alt="">
+                </div>
+                <div class="name">Jacket</div>
+                <div class="desc">Gucci Logo Embroidered Zip-Up Jacket</div>
+                <div class="price">$3,137.14</div>
+                <button class="add-to-cart small" 
+                    data-name="Jacket"
+                    data-price="$3,137.14"
+                    data-desc="Gucci Logo Embroidered Zip-Up Jacket"
+                    data-img="/pictures/product7.webp">Add to Cart</button>
+            </li>           
+        </ul>
+        <div id="wp-products">
+            <h2>LIMITED PRODUCTS</h2>
+            <ul id="list-products">
+                <li class="item">
+                    <img src="/pictures/productlimit.webp" alt="">
+                    <div class="name">Leather Coat</div>
+                    <div class="desc">Balenciaga Shearling Collar Leather Coat</div>
+                    <div class="price">$13,331.71</div>
+                    <button class="add-to-cart small" 
+                    data-name="Leather Coat" 
+                    data-price="$13,331.71" 
+                    data-desc="Balenciaga Shearling Collar Leather Coat"
+                    data-img="/pictures/productlimit.webp">Add to Cart</button>
+                </li>
+                <li class="item">
+                    <img src="/pictures/productlimit2.webp" alt="">
+                    <div class="name">High-Neck Jacket</div>
+                    <div class="desc">Brunello Cucinelli Long Sleeved High-Neck Jacket</div>
+                    <div class="price">$16,806.09</div>
+                    <button class="add-to-cart small" 
+                    data-name="High-Neck Jacket" 
+                    data-price="$16,806.09" 
+                    data-desc="Brunello Cucinelli Long Sleeved High-Neck Jacket"
+                    data-img="/pictures/productlimit2.webp">Add to Cart</button>
+                </li>
+                <li class="item">
+                    <img src="/pictures/productlimit3.webp" alt="">
+                    <div class="name">Long-Sleeved Coat</div>
+                    <div class="desc">Brunello Cucinelli Double-Breasted Long-Sleeved Coat</div>
+                    <div class="price">$24,341.20</div>
+                    <button class="add-to-cart small" 
+                    data-name="Long-Sleeved Coat" 
+                    data-price="$24,341.20" 
+                    data-desc="Brunello Cucinelli Double-Breasted Long-Sleeved Coat"
+                    data-img="/pictures/productlimit3.webp">Add to Cart</button>
+                </li>
+                <li class="item">
+                    <img src="/pictures/productlimit4.webp" alt="">
+                    <div class="name">T-Shirt</div>
+                    <div class="desc">The Firefly Queen T-Shirt (Limited)</div>
+                    <div class="price">$196.81</div>
+                    <button class="add-to-cart small" 
+                    data-name="T-Shirt" 
+                    data-price="$196.81" 
+                    data-desc="The Firefly Queen T-Shirt (Limited)"
+                    data-img="/pictures/productlimit4.webp">Add to Cart</button>
+                </li>
+            <ul>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>
